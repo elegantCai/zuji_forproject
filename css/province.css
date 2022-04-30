@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.125rem 0;
+}
+.mainbox .column {
+  flex: 3;
+}
+.mainbox .column:nth-child(1) {
+  flex: 6;
+  margin: 0.125rem 0.125rem 0.1875rem;
+  overflow: hidden;
+}
+.mainbox .column:nth-child(1) .up {
+  height: 6rem;
+  margin: 0.125rem 0.125rem 0.1875rem;
+  overflow: hidden;
+  display: flex;
+}
+.mainbox .column:nth-child(1) .up .subcolumn {
+  flex: 3;
+}
+.mainbox .column:nth-child(1) .up .subcolumn:nth-child(1) {
+  flex: 4;
+}
+.mainbox .column:nth-child(1) .down {
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+.slides {
+  position: relative;
+  height: 6rem;
+  padding: 0rem 0rem;
+  background-color: black;
+}
+.map {
+  position: relative;
+  height: 6rem;
+  padding: 1rem 0.1875rem 0.5rem;
+}
+.intro {
+  position: relative;
+  height: 5rem;
+  padding: 0 0.1875rem 0.5rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.1875rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.intro .chart {
+  height: 5rem;
+}
+.table {
+  position: relative;
+  height: 5rem;
+  padding: 0 0.1875rem 0.5rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.1875rem;
+}
+.table .chart {
+  height: 5rem;
+}
+p {
+  text-indent: 1cm;
+}

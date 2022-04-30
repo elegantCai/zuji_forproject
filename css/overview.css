@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.125rem 0;
+}
+.mainbox .column {
+  flex: 3;
+}
+.mainbox .column:nth-child(1) {
+  flex: 7;
+  margin: 0 0.125rem 0.1875rem;
+  overflow: hidden;
+}
+.map {
+  position: relative;
+  height: 20.125rem;
+}
+.map .chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10.125rem;
+}
+.data {
+  position: relative;
+  height: 5rem;
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+}
+.data h2 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.data .chart1 {
+  height: 4.25rem;
+}
+.data .chart2 {
+  height: 4.25rem;
+}

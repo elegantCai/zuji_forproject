@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox_people {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.25rem 0;
+}
+.mainbox_people .column {
+  flex: 3;
+}
+.mainbox_people .column:nth-child(2) {
+  flex: 16;
+  margin: 0 0.125rem 0.1875rem;
+  overflow: hidden;
+}
+.mainbox_people .column:nth-child(3) {
+  flex: 3;
+}
+.mainbox_people .column:nth-child(4) {
+  flex: 3;
+}
+.mainbox_people .column:nth-child(5) {
+  flex: 3;
+}
+.kind_de {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 20px;
+  color: rgba(178, 34, 34, 0.7);
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.kind_de .kind {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.kind_de:hover {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 27px;
+  color: #000000;
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(178, 34, 34, 0.3);
+}
+.kind_de:hover .kind {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.panel_people {
+  position: relative;
+  height: 10rem;
+  padding: 0 0.125rem 0;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.125rem;
+}
+.panel_people h2 {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  color: rgba(178, 34, 34, 0.7);
+  font-size: 20px;
+  font-weight: 800;
+}
+.panel_people .pic {
+  height: 5.9rem;
+}
+.panel_people .word_people {
+  height: 2rem;
+  line-height: 0.5rem;
+  padding: 0 0.125rem 0.125rem;
+}
+.panel_people .word_people .word_people_word {
+  font-size: 17px;
+  font-family: "宋体";
+  font-weight: 600;
+  text-indent: 2em;
+}
+.new_people {
+  position: relative;
+  height: 3.35rem;
+  padding: 0.125rem 0.125rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+}
+.new_people .new_people_new {
+  height: 3.35rem;
+}
+

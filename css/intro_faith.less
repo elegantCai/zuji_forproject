@@ -1,0 +1,202 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainbox{
+	min-width: 1024px;
+	max-width: 1920px;	
+	padding: 0.625rem,0.625rem 0;
+	display: flex;
+	margin: auto;
+	.sidebar {
+	    float: left;
+	    width: 2.3rem;
+	    margin-left: 0.125rem;
+	    height: 9.875rem;
+	    background-color: rgba(128,128,128,0.3);
+	    transition: 0.8s all;
+		text-align: justify; 
+		text-align-last: justify; 
+		text-justify: inter-ideograph;
+		overflow: scroll;
+		overflow-x: hidden;
+		  padding: 0.125rem;
+	}	
+	.side {
+	    margin-left: -2.0rem;
+	}
+	.sidebar ul {
+	    margin: 0;
+	}	
+	/*去点*/
+	.sidebar ul li {
+	    list-style: none;
+		padding: 0.05rem;
+	}	
+	/*去下划线*/
+	.sidebar ul li a {
+	    text-decoration: none;
+	    color: white;
+	    height: 0.4375rem;
+	    width: 100%;
+	    font-size: 0.3125rem;
+	    text-align: justify;
+	    display: block;
+	    transition: 0.1s all;
+	}
+	.sidebar ul li a:hover {
+	    background: rgba(128,128,128,0.3);
+	}
+	.btn {
+	    float: left;    
+	    font-size: 0.5rem;
+	    text-decoration: none;
+	    color: rgba(128,128,128,0.8);
+	    font-family: Ionicons;
+	    cursor: pointer;	
+	}
+	.btn:before {
+	    content: '\f20d';
+	}
+	.btnc:before {
+	    content: '\f12a';
+	}
+	
+	.content{
+		font-family: "宋体";
+		margin:auto;
+		padding-top: 0.125rem;
+		min-width: 1024px;
+		max-width: 1920px;
+		height:9.875rem;
+		width: 21.7rem;
+		
+		.up{
+			padding: 0.125rem;
+			height:4.78rem;
+			display:flex;
+			overflow: cover;
+			.subup{
+				margin-left: 0.125rem;
+				margin-right: 0.125rem;
+				height:4.53rem;
+				padding: 0.125rem;
+				flex:3;
+				
+			}
+			.subuptitle{
+				margin-left: 0.125rem;
+				margin-right: 0.125rem;
+				height:4.53rem;
+				padding: 0.125rem;
+				flex:3;
+				h1{
+					margin-top: -2rem;
+					font-family: STLiti;
+					text-align: center;
+					font-size: 1.5rem;
+				}
+				h2{
+					margin-top: -2.3rem;
+				}
+				
+			}
+			.wordcloud{	
+				margin-left: 0.125rem;
+				padding: 0.125rem;
+				height:4.53rem;
+				flex:3;
+				
+			}
+		}
+		.down{
+			margin-left: 0.25rem;
+			margin-right: 0.125rem;
+			padding: 0.25rem;
+			height:4.6rem;
+			
+			overflow: scroll;
+			overflow-x: hidden;
+			border: 2.5px solid rgba(215, 41, 42, 0.5);
+			border-top:none;border-bottom:none;border-right:none;
+			
+		}
+		.down::-webkit-scrollbar {/*滚动条整体样式*/
+		   width: 2px;     /*高宽分别对应横竖滚动条的尺寸*/
+		   height: 1px;
+		 }
+		.down::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+		   border-radius: 10px;
+		   -webkit-box-shadow: inset 0 0 5px rgba(170,0,0,0.1);
+		   background: #b4b4b4;
+		}
+		.down::-webkit-scrollbar-track {/*滚动条里面轨道*/
+		   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+		   border-radius: 10px;
+		   background: #EDEDED;
+		}	
+		
+	}
+	.faith{
+		font-family: "宋体";
+		flex:12;
+		height:9.875rem;
+		margin-left: 0.125rem;
+		
+	}
+	.intro{
+		font-family: "宋体";
+		flex:4;
+		height:9.875rem;
+		padding: 0.125rem;
+		margin-left: 0.125rem;
+		margin-right: 0.125rem;
+		letter-spacing: 0.05rem;
+		line-height: 0.125rem;
+		
+		.guide{
+			display: flex;
+			margin-left: 0.125rem;
+			height:1.3rem;
+			overflow: hidden;
+			.name{
+				flex:7;
+			}
+			.sum{
+				flex:2;
+			}
+		}
+		.word{
+			padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+			line-height: 1.5rem;
+			margin-left: 0.125rem;
+			
+			height:8rem;
+			overflow: scroll;
+			overflow-x: hidden;
+			border: 3px solid rgba(170, 0, 0, 0.2);
+			border-top:none;border-bottom:none;border-right:none;
+			
+		}
+		.word::-webkit-scrollbar {/*滚动条整体样式*/
+		   width: 2px;     /*高宽分别对应横竖滚动条的尺寸*/
+		   height: 1px;
+		 }
+		.word::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+		   border-radius: 10px;
+		   -webkit-box-shadow: inset 0 0 5px rgba(170,0,0,0.1);
+		   background: #b4b4b4;
+		}
+		.word::-webkit-scrollbar-track {/*滚动条里面轨道*/
+		   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+		   border-radius: 10px;
+		   background: #EDEDED;
+		}	
+		
+	}
+
+
+}

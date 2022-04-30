@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox_agriculture {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.25rem 0;
+}
+.mainbox_agriculture .column {
+  flex: 3;
+}
+.mainbox_agriculture .column:nth-child(2) {
+  flex: 14;
+  margin: 0 0.125rem 0.1875rem;
+}
+.mainbox_agriculture .column:nth-child(3) {
+  flex: 11;
+  
+}
+.kind_de {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 20px;
+  color: rgba(178, 34, 34, 0.7);
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.kind_de .kind {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.kind_de:hover {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 27px;
+  color: #000000;
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(178, 34, 34, 0.3);
+}
+.kind_de:hover .kind {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.panel_agriculture {
+  position: relative;
+  height: 10.125rem;
+  padding: 0.125rem 0.1875rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.1875rem;
+}
+.panel_agriculture h2 {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+.panel_agriculture .pic {
+  height: 10.4rem;
+}
+.word_agriculture {
+  position: relative;
+  height: 3.95rem;
+  padding: 0 0.125rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.125rem;
+}
+.word_agriculture .word {
+  height: 3.5rem;
+  line-height: 0.5rem;
+  padding: 0 0.125rem 0.125rem;
+}
+.word_agriculture .word .word_p {
+  font-size: 18px;
+  font-family: "宋体";
+  font-weight: 600;
+  text-indent: 2em;
+}
+.word_agriculture h2 {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: rgba(178, 34, 34, 0.7);
+  font-size: 22px;
+  font-weight: 800;
+}
+.pic_agriculture {
+  position: relative;
+  height: 6rem;
+  padding: 0.125rem 0.1875rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.1875rem;
+}
+.pic_agriculture .pic {
+  height: 3.35rem;
+  line-height: 0.6rem;
+}

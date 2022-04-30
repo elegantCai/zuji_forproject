@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-top: -0.25rem;
+  position: relative;
+  height: 1.25rem;
+  background-size: 100% 100%;
+}
+header h1 {
+  font-size: 0.6rem;
+  color: #c26100;
+  text-align: center;
+  line-height: 1rem;
+  font-family: STliti;
+}
+header .decorate0 {
+  position: absolute;
+  left: 8.9rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 0.65rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .decorate1 {
+  position: absolute;
+  right: 9.2rem;
+  top: 0.1rem;
+  height: 0.65rem;
+  width: 0.43rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct0 {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct4 {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct4 a span {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: STliti;
+  font-size: 0.36rem;
+  bottom: 0;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+header .direct3 {
+  position: absolute;
+  right: 2rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct3 a span {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: STliti;
+  font-size: 0.36rem;
+  bottom: 0;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+header .direct2 {
+  position: absolute;
+  right: 3.5rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 1.25rem;
+  font-size: 0.35rem;
+}
+header .direct2 a span {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: STliti;
+  font-size: 0.36rem;
+  bottom: 0;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+header .direct1 {
+  position: absolute;
+  right: 5rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct1 a span {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: STliti;
+  font-size: 0.36rem;
+  bottom: 0;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+header .direct01 {
+  position: absolute;
+  right: 6.5rem;
+  top: 0.2rem;
+  height: 0.65rem;
+  width: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.4rem;
+}
+header .direct01 a span {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: STliti;
+  font-size: 0.36rem;
+  bottom: 0;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+body {
+  background: url(../images/bg6.png) no-repeat top center;
+  background-size: cover;
+  line-height: 1.15;
+  height: 100%;
+  overflow: hidden hidden;
+}
+body .box {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin: 0,0,0,0;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+body .box img {
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 40s;
+  opacity: 0.75;
+}
+body .c1 {
+  animation-name: roll1;
+}
+body .c2 {
+  animation-name: roll2;
+}
+@keyframes roll1 {
+  0% {
+    left: 0px;
+    top: -30px;
+  }
+  100% {
+    left: 125%;
+    top: 30px;
+  }
+}
+@keyframes roll2 {
+  0% {
+    left: -125%;
+    top: -30px;
+  }
+  100% {
+    left: 0px;
+    top: 30px;
+  }
+}

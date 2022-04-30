@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox {
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.125rem 0;
+}
+.mainbox .mainbar {
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+  height: 1rem;
+  background-image: url(../images/culture/img131.jpg);
+}
+.mainbox .column {
+  margin: 0 2.8rem 0.1875rem;
+  height: 3rem;
+  display: flex;
+}
+.mainbox .column .bar_fordecorate {
+  flex: 3;
+  border-bottom: 3px solid #9a2929;
+}
+.mainbox .column .bar_fordecorate:nth-child(4n+0) {
+  height: 0.5rem;
+  background-color: #c1b199;
+}
+.mainbox .column .bar_fordecorate:nth-child(4n+1) {
+  height: 0.3rem;
+  background-color: #bcac93;
+}
+.mainbox .column .bar_fordecorate:nth-child(4n+2) {
+  height: 0.7rem;
+  background-color: #c1b199;
+}
+.mainbox .column .bar_fordecorate:nth-child(4n+3) {
+  height: 0.1rem;
+  background-color: #bcac93;
+}
+.mainbox .column1 {
+  height: 5rem;
+  margin: 0 2.8rem 0.1875rem;
+  overflow: hidden;
+  display: flex;
+}
+.mainbox .column1 .cultural_bar {
+  position: absolute;
+  left: 3rem;
+  top: 5rem;
+  height: 3rem;
+  width: 0.5rem;
+}
+.mainbox .column1 .cultural_bar .list_top {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.mainbox .column1 .cultural_bar .listtext {
+  width: 0.5rem;
+}
+.mainbox .column1 .cultural_bar .listtext p {
+  text-align: center;
+  font-family: Lisu;
+  font-size: 0.4rem;
+}
+.mainbox .column1 .cultural_bar .list_bottom {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.mainbox .column1 .picture_bar {
+  position: absolute;
+  left: 4rem;
+  top: 4.5rem;
+  height: 5rem;
+  width: 17rem;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+}
+.mainbox .column1 .picture_bar .the_picture {
+  width: 4rem;
+  flex-shrink: 0;
+  height: 4rem;
+  margin-top: 0rem;
+}
+.mainbox .column1 .picture_bar .the_picture .p {
+  position: absolute;
+  /*绝对定位*/
+  width: 4rem;
+  height: 0.8rem;
+  bottom: 0.82rem;
+  /*离底下0像素*/
+  text-align: center;
+  font-size: 0.25rem;
+  color: white;
+  line-height: 0.8rem;
+  background: url(../images/culture/textbg.png);
+}
+.mainbox .column1 .picture_bar .the_picture1 {
+  position: relative;
+  margin-top: 20px;
+  flex-shrink: 0;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.mainbox .column1 .picture_bar .the_picture1 .p {
+  position: absolute;
+  /*绝对定位*/
+  width: 4rem;
+  height: 0.8rem;
+  bottom: 0.1rem;
+  /*离底下0像素*/
+  text-align: center;
+  font-size: 0.25rem;
+  color: white;
+  line-height: 0.8rem;
+  background: url(../images/culture/textbg.png);
+}
+.picture_bar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.picture_bar::-webkit-scrollbar {
+  height: 10px;
+}
+.picture_bar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 2px rgba(81, 167, 255, 0.3);
+  background-color: rgba(81, 167, 255, 0.8);
+}

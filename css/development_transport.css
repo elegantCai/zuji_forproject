@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox_tp {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0.125rem 0.25rem 0;
+}
+.mainbox_tp .column {
+  flex: 3;
+}
+.mainbox_tp .column:nth-child(2) {
+  flex: 9;
+  margin: 0 0.125rem 0.1875rem;
+  overflow: hidden;
+}
+.mainbox_tp .column:nth-child(3) {
+  flex: 16;
+}
+.kind_de {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 20px;
+  color: rgba(178, 34, 34, 0.7);
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.kind_de .kind {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.kind_de:hover {
+  position: relative;
+  top: 10%;
+  height: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 27px;
+  color: #000000;
+  border: 2px solid rgba(178, 34, 34, 0.7);
+  text-align: center;
+  font-weight: 800;
+  background-color: rgba(178, 34, 34, 0.3);
+}
+.kind_de:hover .kind {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+}
+.panel_tp {
+  position: relative;
+  height: 6.4rem;
+  padding: 0.125rem 0.125rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.125rem;
+}
+.panel_tp h2 {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+.panel_tp .pic {
+  height: 6.2rem;
+}
+.word_tp {
+  position: relative;
+  height: 3.5rem;
+  padding: 0 0.125rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.125rem;
+}
+.word_tp .word {
+  height: 2.5rem;
+  line-height: 0.5rem;
+  padding: 0 0.125rem 0.125rem;
+}
+.word_tp .word .word_p {
+  font-size: 18px;
+  font-family: "宋体";
+  font-weight: 600;
+  text-indent: 2em;
+}
+.word_tp h2 {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: rgba(178, 34, 34, 0.7);
+  font-size: 22px;
+  font-weight: 800;
+}
+.pic_tp {
+  position: relative;
+  height: 3.35rem;
+  padding: 0.125rem 0.125rem 0.125rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+}
+.pic_tp .pic {
+  height: 3.35rem;
+  line-height: 0.6rem;
+}

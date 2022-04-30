@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainbox{
+	display:flex;
+	min-width: 1024px;
+	max-width: 1920px;
+	margin:0 auto;
+	height:800px;
+	padding:0.125rem 0.125rem 0;
+	.column{
+		flex:3
+	}
+	.column:nth-child(1) {
+	  flex: 5;
+	  margin: 0 0.125rem 0.1875rem;
+	  overflow: hidden;
+	}
+}
+
+.slides{
+	position: relative;
+	height: 5rem;
+	padding: 0 0.05rem 0.5rem;
+}
+
+.intro{
+	position: relative;
+	height: 5rem;
+	padding: 0 0.1875rem 0.5rem;
+	border: 2px solid rgba(255, 164, 6, 0.2);
+	border-radius:10px;
+	margin-bottom: 0.1875rem;
+	overflow: scroll;
+	overflow-x: hidden;
+	.chart{
+		height:5rem;
+	};
+	.bgdecorate{
+		position: absolute;
+		left: 6rem;
+		top: -0.4rem;
+		height:2rem;
+		width:0.65rem;	
+	};
+	h2{
+		font-size: 0.4rem;
+		color:#914800;
+		//text-align: center;
+		//line-height: 1rem;
+		font-family:STLiti;
+	}
+}
+
+.intro::-webkit-scrollbar {/*滚动条整体样式*/
+			   width: 2px;     /*高宽分别对应横竖滚动条的尺寸*/
+			   height: 1px;
+			 }
+			.navbox::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+			   border-radius: 20px;
+			   -webkit-box-shadow: inset 0 0 5px rgba(170, 85, 0, 0.2);
+			   background: #aa0000;
+			}
+			.navbox::-webkit-scrollbar-track {/*滚动条里面轨道*/
+			   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+			   border-radius: 10px;
+			   background: #aaaa00;
+			}
+			
+.table{
+	position: relative;
+	height: 8rem;
+	padding: 0 0.1875rem 0.5rem;
+	margin-bottom: 0.1875rem;
+	.chart{
+		height:8rem;
+		}
+}
+
+.partation{
+	position: relative;
+	height: 3rem;
+	padding: 0 0.1875rem 0.5rem;
+	margin-bottom: 0.1875rem;
+}
+
+p {text-indent: 1cm}

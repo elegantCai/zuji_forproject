@@ -1,0 +1,65 @@
+// css 初始化
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainbox{
+	min-width: 1024px;
+	max-width: 1920px;
+	margin:0 auto;
+	height:800px;
+	padding:0.125rem 0.125rem 0;
+}
+
+.fortitle{
+	height:380px;
+
+}
+.forcatlogue{
+	height:330px;
+	display:flex;
+	.subthing{
+		flex:3;
+		display:flex;
+		.forcolumn{
+			flex:2;
+			display:flex;
+			.forsubtitle{
+				position:relative;
+				margin-right:2rem;
+				margin-top:3rem;
+				width:6rem;
+			}
+			.forsplit{
+				position:relative;
+				margin-right:2rem;
+				border-left:2px solid rgba(206, 205, 194, 1.0);
+				width:0.1rem;
+				margin-top:3rem;
+				height:25rem;
+			}
+		}
+		.forcolumn:nth-child(1){
+			padding-top:8rem;
+			padding-left:3rem;
+		}
+	}
+	.subthing:nth-child(1){
+		flex:1.5;
+	}
+	.subthing:nth-child(6){
+		flex:3;
+		.forcatpic{
+			position:relative;
+			margin-left:3rem;
+			margin-top:5rem;
+			width:10rem;
+		}
+	}
+	.subthing2{
+		flex:1.5;
+	}
+}
+
